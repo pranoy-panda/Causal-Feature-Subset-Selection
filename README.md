@@ -36,6 +36,8 @@ sudo pip install -r requirements.txt
 1. [MNIST and FMNIST dataset](https://colab.research.google.com/drive/1RFhhCJWxOdTN2BJXqpz9PblJb7RiYuKY?usp=sharing)
 2. [CIFAR dataset](https://colab.research.google.com/drive/1r08XtoBzBQUqIYHRRx35OyXMnmYZ9kBw?usp=sharing)
 
+
+<!--
 ## Citation
 If you use this code for your research, please cite our [paper](https://arxiv.org/):
 ```
@@ -46,3 +48,4 @@ journal={arXiv preprint arXiv:},
 year = {2021}  
 }
 ```
+-->
