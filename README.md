@@ -31,6 +31,11 @@ git clone https://github.com/pranoy-panda/Causal-Feature-Subset-Selection
 cd Causal-Feature-Subset-Selection
 sudo pip install -r requirements.txt
 ```
+Then in order to run our method on MNIST dataset use the following command:
+```shell
+python main.py
+```
+(In order to get results on FMNIST or to change the hyper-parameters, go to the [config.py](https://github.com/pranoy-panda/Causal-Feature-Subset-Selection/blob/main/config.py) script)
 
 ## Colab notebooks(for hassle free reproduction of results)
 1. [MNIST and FMNIST dataset](https://colab.research.google.com/drive/1RFhhCJWxOdTN2BJXqpz9PblJb7RiYuKY?usp=sharing)
