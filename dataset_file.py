@@ -53,8 +53,8 @@ if dataset_name=='mnist':
   tf.extractall()
 
   cls = [3,8] #MNIST  
-  trainloader = DataLoader(subLoader(cls, root='./', train=True, download=True, transform=transforms.ToTensor()),**kwargs,shuffle=True))
-  valloader = DataLoader(subLoader(cls, root='./', train=False, download=True, transform=transforms.ToTensor()),**kwargs,shuffle=False))  
+  trainloader = DataLoader(subLoader(cls, root='./', train=True, download=True, transform=transforms.ToTensor()),**kwargs,shuffle=True)
+  valloader = DataLoader(subLoader(cls, root='./', train=False, download=True, transform=transforms.ToTensor()),**kwargs,shuffle=False)  
   print('Loaded MNIST dataset!')
 else:
   cls = [0,9] #FMNIST
