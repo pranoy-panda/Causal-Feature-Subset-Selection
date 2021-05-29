@@ -1,6 +1,5 @@
 numpy==1.19.5
 torch==1.8.1+cu101
-opencv==4.1.2
-skimage==0.16.2
+torchvision==0.9.1+cu101
+scikit-image==0.16.2
 captum==0.3.1
-
