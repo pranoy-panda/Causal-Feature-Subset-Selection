@@ -21,7 +21,6 @@ We  formulate  a  causal  extension  to  the  recently  intro-duced  paradigm  o
 4. [Matplolib](https://matplotlib.org/)
 5. [skimage](https://scikit-image.org/docs/dev/api/skimage.html)
 6. [captum](https://captum.ai/)
-7. [OpenCV](https://opencv.org/)
 
 (you could use pip to install all the dependencies)
 
